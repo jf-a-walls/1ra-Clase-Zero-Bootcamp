@@ -1,0 +1,75 @@
+/* root */
+@import url(./base/reset.css);
+
+/* variables */
+@import url(./base/variables.css);
+
+*{
+    background-color: #E8A7A1;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    text-align: center;
+    height: 70%;
+}
+
+ul{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bocchi{
+    height: 300px;
+
+}
+
+.box{
+    padding: 50px;
+}
+
+.caja{
+    padding: 10px;
+}
+
+.caja_2{
+    display: block;
+}
+
+.caja_3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.logos_redes{
+    height: 100px;
+    margin: 3%;
+}
+
+
