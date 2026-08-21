@@ -4,80 +4,17 @@
 /* variables */
 @import url(./base/variables.css);
 
-*{
-    background-color: #E8A7A1;
-}
+/* Secciones */
+@import url(./secciones/section.css);
 
-h1{
-    display: flex;
-    justify-content: center;
-}
+/* header */
+@import url(./secciones/header.css);
 
-h2{
-    justify-content: center;
-    text-align: center;
-    
-}
+/* titulos */
+@import url(./secciones/titles.css);
 
-h3{
-    justify-content: center;
-    text-align: center;
-    padding: 30px;
-}
+/* footer */
+@import url(./secciones/footer.css);
 
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-p{
-    text-align: center;
-    height: 70%;
-}
-
-ul{
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-}
-
-li{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: teal;
-}
-
-.bocchi{
-    height: 300px;
-
-}
-
-.box{
-    padding: 50px;
-}
-
-.caja{
-    padding: 10px;
-}
-
-.caja_2{
-    display: block;
-    
-}
-
-.caja_3{
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
-
-.logos_redes{
-    height: 100px;
-    margin: 3%;
-}
-
-
+/* textos */
+@import url(./secciones/textos.css);

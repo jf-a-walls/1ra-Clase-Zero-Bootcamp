@@ -1,0 +1,18 @@
+p{
+    text-align: center;
+    height: 70%;
+}
+
+ul{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: var(--cl-font);
+}

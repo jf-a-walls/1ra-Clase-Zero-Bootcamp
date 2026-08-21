@@ -1,10 +1,10 @@
 :root {
 
     /* colores */
-    --cl-primario: #FAFAFA;
+    --cl-bg: #FFE38A;
     --cl-secundario: #1C1C1C;
-    --cl-terciario: #1A233A;
-    --cl-cuarto: #FF77A9;
+    --cl-font: #00C2CB;
+    --cl-bg-2: #FF9A76;
 
     /* s */
 }
