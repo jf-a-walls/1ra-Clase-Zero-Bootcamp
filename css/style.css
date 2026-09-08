@@ -10,6 +10,9 @@
 /* header */
 @import url(./secciones/header.css);
 
+/* Navbar */
+@import url(./secciones/navbar.css);
+
 /* titulos */
 @import url(./secciones/titles.css);
 
