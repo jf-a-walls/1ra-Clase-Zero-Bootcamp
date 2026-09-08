@@ -1,0 +1,117 @@
+form {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 35px;
+
+    background: #2008083f;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cada campo */
+form label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Inputs, textarea y select */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea,
+form select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 12px 14px;
+    margin-bottom: 22px;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 9px;
+
+    background-color: #fafafa;
+    color: #333;
+
+    font-size: 14px;
+
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Efecto al seleccionar */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #6366f1;
+    background-color: #fff;
+
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+/* Mensaje */
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Checkbox */
+form input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+/* Texto del checkbox */
+form label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 25px;
+
+    font-size: 13px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Botón */
+form button {
+    display: block;
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 9px;
+
+    background-color: #6366f1;
+    color: white;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+form button:hover {
+    background-color: #4f46e5;
+    transform: translateY(-1px);
+}
+
+/* Click */
+form button:active {
+    transform: translateY(0);
+}

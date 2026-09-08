@@ -21,3 +21,6 @@
 
 /* textos */
 @import url(./secciones/textos.css);
+
+/* form */
+@import url(./secciones/form.css);
